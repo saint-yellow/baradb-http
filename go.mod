@@ -1,10 +1,10 @@
-module github.com/saint-yellow/baradb-http
+module github.com/saint-yellow/baradb/http
 
 go 1.20
 
 require (
 	github.com/gin-gonic/gin v1.9.1
-	github.com/saint-yellow/baradb v0.0.0-20230628220455-4148f4080268
+	github.com/saint-yellow/baradb v0.0.0-20230702103710-a69cb5c73cc9
 )
 
 require (
