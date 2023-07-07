@@ -15,7 +15,7 @@ func init() {
 	var err error
 	opts := baradb.DefaultDBOptions
 	opts.Directory = "/tmp/baradb-http"
-	db, err = baradb.LaunchDB(opts)
+	db, err = baradb.Launch(opts)
 	if err != nil {
 		panic(fmt.Sprintf("Failed to launch a DB engine: %v", err))
 	}
