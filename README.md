@@ -1,15 +1,15 @@
 # baradb-http
 
-baradb-http is a simple web service that integrates HTTP into [baradb](https://github.com/saint-yellow/baradb), a key/value storage engine.
+**baradb-http** is a simple HTTP service that is built on the top of [baradb](https://github.com/saint-yellow/baradb), a key/value storage engine.
 
-It uses web framework [gin](https://github.com/gin-gonic/gin)
+It uses web framework [gin](https://github.com/gin-gonic/gin).
 ## Install
 
 ```shell 
-$ go get -u github.com/saint-yellow/baradb-http
+$ go install github.com/saint-yellow/baradb-http@latest
 ```
 
-Executing this command will add a binary file callled `baradb-http` to your `${GOPATH}/bin`
+Executing this command will add a binary file callled `baradb-http` to your `${GOPATH}/bin`.
 
 ## APIs 
 
