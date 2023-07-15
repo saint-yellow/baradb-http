@@ -3,7 +3,7 @@ package main
 import "github.com/gin-gonic/gin"
 
 type ResponseJSON struct {
-	Success bool   `json:"key,omitempty"`
+	Success bool   `json:"success,omitempty"`
 	Message string `json:"message,omitempty"`
 	Data    any    `json:"data,omitempty"`
 }
