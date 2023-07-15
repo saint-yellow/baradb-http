@@ -1,4 +1,4 @@
-module github.com/saint-yellow/baradb/http
+module github.com/saint-yellow/baradb-http
 
 go 1.20
 
